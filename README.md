@@ -1,4 +1,4 @@
-
+![Screenshot 2024-04-11 201151](https://github.com/DevDivyansh0b/KnowMad---AI-Tutor-and-Notes-Generator/assets/152688793/47462d84-3bf1-4b3b-bdb8-5408ad81d582)
 # KnowMad - AI tutor and Notes Generator
 
 A Notes explanation Chatbot that can be provided with context uses GenAI and RAG using llama_index over provided documents and images. Provision of YouTube videos for explanation along with Diagram and Notes Retrieval over given videos.
