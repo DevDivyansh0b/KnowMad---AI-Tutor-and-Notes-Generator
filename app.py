@@ -17,9 +17,9 @@ def upload_documents():
 
 # Main function to create the web app
 def main():
+    result=""
     st.title("KNOWMAD")
     text_input = st.text_input("Enter some text:")
-
     # Button to upload documents
     if st.button("Upload Documents"):
         upload_documents()
@@ -41,7 +41,10 @@ def main():
         global counter
         counter+=1
         result=give_video_explanation(text_input,counter,pil_image)
-        st.text_area("Output:", value=result, height=100)
+        path=r"C:\Users\whyis\Desktop\KNOWMAD\downloaded_videos\myvideo1.mp4\myvideo1.mp4"
+        # video_file = open(path, 'rb')
+        # video_bytes = video_file.read()
+        st.video(path)
 
 if __name__ == "__main__":
     main()
