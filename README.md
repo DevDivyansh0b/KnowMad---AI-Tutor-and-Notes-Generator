@@ -38,6 +38,7 @@ sudo apt-get install tesseract-ocr
 ## Python files
 Put the respective codes in knowmad.py and app.y files code in a file knowmad.py, This file contains all important functions necessary to perform the deep learning tasks of Notes generation, Youtube video extraction and Chatbot interaction.
 Make a directory 'test' which contains images you want to give to the model and another directory 'training' which will contain documents your RAG model will be trained on.
+Make another directory 'downloaded_videos' to put your downloaded videos in it.
 ## Deployment
 
 To deploy this project using streamlit run the following command in your app.py file
